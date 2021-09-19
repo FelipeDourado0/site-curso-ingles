@@ -45,6 +45,11 @@
   background-color: white;
 }
 
+.container-set {
+  background-color: rgb(241, 241, 241);
+  width: 100vw !important;
+}
+
 .navbar {
   background-color: white;
 }
@@ -83,6 +88,14 @@
   margin-left: 2%;
   margin-right: 2%;
   background-color: rgb(30, 30, 30);
+  padding-left: 5px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.item-conteudo-principal {
+  width: 100%;
+  height: 100%;
 }
 
 .texto {
@@ -107,5 +120,21 @@
 .imagem {
   float: left;
   margin-right: 2%;
-  width: 20%;
+  width: 260px;
+  height: 100%;
+  object-fit: contain;
+}
+
+.list-footer {
+  display: flex;
+  list-style: none;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-footer-item > p {
+  color: aqua;
+  font-size: 1rem;
+  font-weight: 600;
 }
