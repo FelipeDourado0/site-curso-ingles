@@ -144,9 +144,9 @@ body {
 }
 
 .list-footer-item > p {
-  color: aqua;
+  color: white;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 200;
   padding-top: 30px;
 }
 
