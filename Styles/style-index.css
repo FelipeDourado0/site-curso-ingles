@@ -125,16 +125,27 @@
   object-fit: contain;
 }
 
-.list-footer {
-  display: flex;
-  list-style: none;
+.container-footer {
+  width: 100%;
   height: 80px;
-  align-items: center;
-  justify-content: center;
+}
+
+.list-footer-item {
+  text-align: center;
+  width: 100%;
+  margin: 0;
 }
 
 .list-footer-item > p {
   color: aqua;
   font-size: 1rem;
   font-weight: 600;
+  padding-top: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  display: relative;
+  bottom: 0px;
 }
