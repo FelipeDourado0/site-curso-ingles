@@ -156,3 +156,82 @@ footer {
   display: relative;
   bottom: 0px;
 }
+
+nav > .container-fluid {
+  justify-content: space-around !important;
+}
+
+nav > .container-fluid ul {
+  margin: 0;
+  padding: 0;
+}
+
+.pai-nav-flex {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.filho-nav-flex {
+  padding: 2%;
+}
+
+.filho-nav-flex > input {
+  width: 200px;
+}
+
+.filho-hover:hover,
+.filho-hover a:hover {
+  transition: 0.1s;
+  color: #198754;
+}
+
+.filho-nav-flex a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.pai-nav-flex li:nth-child(5) {
+  padding-right: 10px;
+}
+
+.pai-nav-flex li:nth-child(6) {
+  padding-left: 0;
+}
+
+@media (max-width: 1034px) {
+  .filho-hover {
+    display: none;
+  }
+
+  .pai-nav-flex {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .filho-hover {
+    display: none;
+  }
+
+  .pai-nav-flex {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .container-fluid li {
+    transform: scale(0.9);
+    padding: 25px;
+  }
+
+  .filho-nav-flex > input,
+  .filho-nav-flex > button {
+    display: none;
+  }
+}

@@ -24,39 +24,49 @@
         </div>
         <nav class="navbar navbar-light bg-light shadow">
             <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1">
-                    <a href="index.html"><img src="imagens/uk.gif" width="100px"></a>English</span>
-                <!-- ---------------------------------------------- -->
-                <nav class="navbar navbar-expand-lg navbar-light ">
-                    <div class="container-fluid">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page"
-                                        href="http://127.0.0.1:5500/grammar.html">Grammar</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="login.html">Login</a>
-                                </li>
-                            </ul>
-                        </div>
+                <div>
+                    <span stryle="display: inline-block" class="navbar-brand mb-0 h1">
+                        <a href="index.html"><img src="imagens/uk.gif" width="100px"></a>English</span>
+                </div>
+                <div>
+                    <ul class="pai-nav-flex">
+                        <li class="filho-nav-flex filho-hover">
+                            <a aria-current="page" href="index.html">Home</a>
+                        </li>
 
-                    </div>
+                        <li class="filho-nav-flex filho-hover">
+                            <a aria-current="page" href="grammar.html">Grammar</a>
+                        </li>
 
-                </nav>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Digite aqui a sua busca"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                        <li class="filho-nav-flex filho-hover">
+                            <a aria-current="page" href="login.html">SignIn</a>
+                        </li>
 
-                <!-- ------------------------------------------------ -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                        <li class="filho-nav-flex filho-hover">
+                            <a aria-current="page" href="#">SignUp</a>
+                        </li>
+
+                        <li class="filho-nav-flex">
+                            <input for="search-nav" class="form-control me-2" type="search" placeholder="Search..."
+                                aria-label="Search">
+                        </li>
+
+                        <li class="filho-nav-flex">
+                            <button class="btn btn-outline-success" id="search-nav" type="submit">Search</button>
+                        </li>
+
+                        <li class="filho-nav-flex">
+                            <div>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
             </div>
 
         </nav>
@@ -70,11 +80,17 @@
                     </div>
                     <div class="modal-body">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Home</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                            <li class="list-group-item">A fourth item</li>
-                            <li class="list-group-item">And a fifth one</li>
+                            <li class="list-group-item"><a href="index.html" class="btn">Home</a></li>
+                            <li class="list-group-item"><a href="grammar.html" class="btn">Grammar</a></li>
+                            <li class="list-group-item"><a href="login.html" class="btn">SignIn</a></li>
+                            <li class="list-group-item"><a href="#" class="btn">SignUp</a></li>
+                            <li class="list-group-item"><a href="adj_pre.html" class="btn">Adjectives and
+                                    Prepositions</a>
+                            </li>
+                            <li class="list-group-item"><a href="articles.html" class="btn">Articles</a></li>
+                            <li class="list-group-item"><a href="past.html" class="btn">Past Continuous and Past
+                                    Simple</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="modal-footer">
@@ -83,6 +99,7 @@
                 </div>
             </div>
         </div>
+
     </header>
     <!-- ------------------------------------------------------------------------------------------------------ -->
     <main>
@@ -165,7 +182,7 @@
     <footer>
         <div class="container-footer">
             <div class="list-footer-item">
-                <p> Copyright © 2020 EnglishForAll. All Rights Reserved</p>
+                <p> Copyright © 2021 EnglishForAll. All Rights Reserved</p>
             </div>
         </div>
     </footer>
