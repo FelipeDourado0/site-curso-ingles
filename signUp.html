@@ -126,7 +126,8 @@
 
                             <input type="email" id="email_cadastro" name="email_cadastro" placeholder="Email*"
                                 required="required">
-                            <input type="text" id="city_cadastro" name="city_cadastro" placeholder="City">
+                            <input type="text" id="city_cadastro" name="city_cadastro" placeholder="City"
+                                required="required">
                         </div>
                     </li>
 
@@ -140,16 +141,18 @@
                                 <option value="Middle"></option>
                                 <option value="Beginner"></option>
                             </datalist>
-                            <div class="container-btn">
-                                <button type="submit" class="button-cadastrar">Create!</button>
-                            </div>
+                            <input type="password" id="password_cadastro" name="password_cadastro"
+                                placeholder="Password*" required="required">
 
                         </div>
                     </li>
                     <li>
-                        <div class class="form-checkbox">
-                            <input style="width: 15px; padding:5px;" type="checkbox" id="aceitar_termos"
-                                name="aceitar_termos">
+                        <div class="container-btn">
+                            <button type="submit" class="button-cadastrar">Create!</button>
+                        </div>
+                        <div>
+                            <input style=" width: 15px; padding:5px;" type="checkbox" id="aceitar_termos"
+                                name="aceitar_termos" required="required">
                             <label for="aceitar_termos">Aceitar termos de uso<a href="#"> Ler mais...</a></label>
                         </div>
                     </li>
