@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-cadastro {
+  width: 500px;
+  height: 100%;
+  background-color: white;
+  margin: 5% auto;
+  padding: 0;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.8);
+}
+
+.container-cadastro h1 {
+  text-align: center;
+}
+
+.item-form {
+  padding: 10px;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.container-form li {
+  border: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.container-form input {
+  padding: 10px;
+  margin: 0 10px;
+  width: 200px;
+  border: none;
+  border-bottom: solid 1px black;
+  outline: none;
+}
+
+.form-checkbox label {
+  width: 100%;
+}
+
+.container-btn {
+  width: 220px;
+  display: inline-block;
+}
+
+.container-btn button {
+  text-decoration: none;
+  outline: none;
+  border: solid 1px #198754;
+  background-color: white;
+  width: 150px;
+  padding: 15px;
+  color: #198754;
+  border-radius: 500px;
+}
+
+@media (max-width: 500px) {
+  .container-cadastro {
+    width: 370px;
+  }
+
+  .container-form input {
+    width: 120px;
+  }
+
+  .container-btn {
+    width: 135px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .container-btn button {
+    width: 80px;
+    padding: 10px;
+  }
+}

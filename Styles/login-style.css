@@ -18,6 +18,11 @@
   text-transform: uppercase;
 }
 
+.item-form {
+  box-sizing: border-box;
+  padding: 0;
+}
+
 .item-form > input {
   width: 300px;
   box-sizing: border-box;
@@ -33,6 +38,19 @@
   border: 2px solid #198754;
 }
 
+.set-link-login {
+  padding: 6px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.set-link-login:hover {
+  color: white;
+  text-shadow: 5px 5px 11px black;
+}
+
 .item-form > input:focus {
   border: 2px solid #198754;
   background: white;
@@ -46,7 +64,7 @@
 .button-login {
   width: 250px;
   box-sizing: border-box;
-  margin-top: 10px;
+  margin-top: 7px;
   padding: 10px;
   outline: none;
   color: #198754;
