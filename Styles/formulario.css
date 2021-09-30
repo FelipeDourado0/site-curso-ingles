@@ -1,0 +1,113 @@
+*{
+    padding: 0; 
+    margin: 0; 
+}
+
+#titulo{
+
+    font-family: sans-serif;
+    color: black;
+    margin-left: 7%;
+}
+
+#subtitulo{
+
+    font-family: sans-serif;
+    color:black;
+    margin-left: 10%;
+
+}
+
+fieldset{
+        border: 0;
+}
+
+
+body {
+   
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: left;
+}
+
+input, select, textarea, button{
+
+    border-radius: 5px;
+
+}
+
+.c{
+
+    margin-bottom: 1em;
+
+}
+
+.c label {
+
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+
+}
+
+fieldset.c .fiel {
+
+float:left;
+margin-right: 1em;
+
+}
+
+
+.c input [ type = "text"  ] , .c input [type="mail"] , .c select, .c textarea {
+
+    padding: 0.2em;
+    border: 1px solid black ;
+    box-shadow: 2px 2px 2px black;
+    display: block;
+}
+
+.c select option{
+    padding-right: 1em ;
+}
+
+.c input:focus, .c select:focus, .c textarea:focus{
+
+    background-color: white;
+}
+
+.botao {
+
+    font-size: 1.2em;
+    background: gray;
+    border: 0 ;
+    margin-bottom: 1em;
+    color: black;
+    padding: 0.2em 0.6em;
+   
+}
+
+#check{
+
+    display:inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

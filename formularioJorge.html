@@ -1,57 +1,150 @@
+<!DOCTYPE html>
 
-    <h1>English Course Application Form </h1><br> 
+<html lang="en">
 
-    <h2>Fill in the form bellow </h2><br> 
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="Styles/formulario.css">   
+
+    <title>form</title>
+
+
+
+</head>
+
+
+<body>
+
+    <div>
+
+    <h1>English Course Application Form </h1>
+
+    <br>
+
+    <p> Fill in the form bellow </p>
+
+    <br>
+
+    </div>
+    
+    
     <form>
      
-        <label for="name">Name:</label><br> 
-        <input type="text" id="name" name="name"><br> 
+        <fieldset class = "fiel" > 
+        
+        <div  class = "c"  >   
+
+        <label for="name"> <strong>Name:</strong> </label>
+        <input type="text" id="name" name="name" required >
+
+        </div>    
+
+        <div class = "c"  >
+
+        <label for="lastname"> <strong>Lastname:</strong> </label>
+        <input type="text" id="lastname" Sobrename="lastname" required  >
+
+        </div>    
+
+        </fieldset>
+
+        <div class = "c"   >
+
+            <label for="email"> <strong> E-mail: </strong> </label>
+            <input type="email" id="email" name="email" required >
+
+        </div>
+        
+        
+        <div class = "c"   >
+            
+            <label for="password"> <strong> Password </strong> </label>
+            <input type="password" id="password" name="password" required>
+
+        </div>
+
+        
+        <label for="sex"> <strong> Sex: </strong>  </label>
+            
+        <div id ="check" >  
+        
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label>
+        
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label>
+
+        </div>
 
         <br>
 
-        <label for="lastname">Lastname:</label><br> 
-        <input type="text" id="lastname" Sobrename="lastname"><br> 
+        <div class = "c"   >
 
-        <br>
+            <br>
 
-        <h2>Sex:</h2><br> 
+            <label for="marital status"> <strong> Marital status: </strong>  </label>
+            
+            <br>
 
-        <input type="radio" id="male" name="sex" value="male">
-        <label for="male">Male</label><br>
-       
-        <input type="radio" id="female" name="sex" value="female">
-        <label for="female">Female</label><br>
+            <select id = "marital status" >
 
-        <br> 
+            <option> Single </option>
+            <option> married </option>
+            <option> divorced </option>
+            <option> separated </option>
+            <option> widowed </option>    
+            </select>
 
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" required><br>
+        </div>
         
         <br>
 
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email" name="email"><br>
+        <div>
+           
+            <label for="quantity">  <strong>How many days would you like to study, it shouldn´t exceed 3 days</strong>  </label>
+            <input type="number" id="quantity" name="quantity" min="1" max="3">
+
+
+        </div>
+       
+       
+        <fieldset class = "fiel" >
+
+        <div  id = "check"   >
+            
+            <label>  <strong> Tick if you would like to learn others languages: </strong>  </label>><br><br>
+
+              <input type="checkbox" id="language1" name="language1" value="Spanish">
+              <label for="language1">Spanish</label>
+             
+              <input type="checkbox" id="language2" name="language2" value="Portuguese">
+              <label for="language2">Portuguese</label>
       
+              <input type="checkbox" id="language3" name="language3" value="French">
+              <label for="language3">French</label>
+
+
+        </div>
+
+    </fieldset>
+
+    <div>
         <br>
+        <label>  <strong> Tell me about yourself:  </strong> </label> <br><br>
+        <textarea row="6" style="width: 26em" id="yourself" name ="yourself"></textarea>
+    </div>
 
-        <label for="quantity">How many days would you like to study, it shouldn´t exceed 3 days</label><br>
-        <input type="number" id="quantity" name="quantity" min="1" max="3"><br>
+    <br><br>
 
-        <br>
+    <button class="botao" type="submit" >  <strong> Submit </strong>  </button> 
 
-        <h2>Tick if you would like to learn others languages:</h2><br> 
-
-        <br>
-        
-        <input type="checkbox" id="language1" name="language1" value="Spanish">
-        <label for="language1">Spanish</label><br>
-       
-        <input type="checkbox" id="language2" name="language2" value="Portuguese">
-        <label for="language2">Portuguese</label><br>
-
-        <input type="checkbox" id="language3" name="language3" value="French">
-        <label for="language3">French</label><br>
-
-       
     </form>
+
+</body>
+
+
+</html>
