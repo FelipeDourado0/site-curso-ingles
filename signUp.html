@@ -110,54 +110,68 @@
         <div class="container-cadastro">
             <h1>Create account</h1>
             <form>
-                <ul class="container-form">
+                <div class="container-form">
 
-                    <li>
-                        <div class="item-form">
-                            <input type="text" id="first_name" name="first_name" placeholder="First name*"
-                                required="required">
-                            <input type="text" id="last_name" name="last_name" placeholder="Last name*"
-                                required="required">
-                        </div>
-                    </li>
+                    <div class="item-form">
+                        <input type="text" id="first_name" name="first_name" placeholder="First name*"
+                            required="required">
+                    </div>
 
-                    <li>
-                        <div class="item-form">
+                    <div class="item-form">
+                        <input type="text" id="last_name" name="last_name" placeholder="Last name*" required="required">
+                    </div>
 
-                            <input type="email" id="email_cadastro" name="email_cadastro" placeholder="Email*"
-                                required="required">
-                            <input type="text" id="city_cadastro" name="city_cadastro" placeholder="City"
-                                required="required">
-                        </div>
-                    </li>
+                    <div class="item-form">
+                        <input type="email" id="email_cadastro" name="email_cadastro" placeholder="Email*"
+                            required="required">
+                    </div>
 
-                    <li>
-                        <div class="item-form">
+                    <div class="item-form">
+                        <input type="text" id="city_cadastro" name="city_cadastro" placeholder="City"
+                            required="required">
+                    </div>
 
-                            <input type="list" list="level_english" name="level_english" placeholder="Switch your level"
-                                required="required">
-                            <datalist id="level_english">
-                                <option value="advanced"></option>
-                                <option value="Middle"></option>
-                                <option value="Beginner"></option>
-                            </datalist>
-                            <input type="password" id="password_cadastro" name="password_cadastro"
-                                placeholder="Password*" required="required">
+                    <div class="item-form">
+                        <input type="password" id="password_cadastro" name="password_cadastro" placeholder="Password*"
+                            required="required">
+                    </div>
 
-                        </div>
-                    </li>
-                    <li>
-                        <div class="container-btn">
-                            <button type="submit" class="button-cadastrar">Create!</button>
-                        </div>
-                        <div>
-                            <input style=" width: 15px; padding:5px;" type="checkbox" id="aceitar_termos"
-                                name="aceitar_termos" required="required">
-                            <label for="aceitar_termos">Aceitar termos de uso<a href="#"> Ler mais...</a></label>
-                        </div>
-                    </li>
+                    <div class="item-form">
+                        <label for="level-english">Select your English Level</label>
+                        <select name="level-english">
+                            <option value="Select">Select...</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Middle">Middle</option>
+                            <option value="advanced">Advanced</option>
+                        </select>
+                    </div>
 
-                </ul>
+                    <div class="item-form switch-sex">
+                        <p>Select your sex:</p>
+                        <input type="radio" name="switch-sex" id="male-sex" value="male">
+                        <label for="male-sex">Male</label>
+                        <input type="radio" name="switch-sex" id="female-sex" value="female">
+                        <label for="female-sex">Female</label>
+                        <input type="radio" name="switch-sex" id="no-sex" value="other">
+                        <label for="no-sex">Don't inform</label>
+                    </div>
+
+                    <div class="item-form">
+                        <label for="textarea-form">Write a little text about you:</label>
+                        <textarea name="textarea-form" id="textarea-form"></textarea>
+                    </div>
+
+                    <div class="container-btn">
+                        <button type="submit" class="button-cadastrar">Create!</button>
+                    </div>
+
+                    <div>
+                        <input style=" width: 15px; padding:5px;" type="checkbox" id="aceitar_termos"
+                            name="aceitar_termos" required="required">
+                        <label for="aceitar_termos">Aceitar termos de uso<a href="#"> Ler mais...</a></label>
+                    </div>
+
+                </div>
 
             </form>
         </div>

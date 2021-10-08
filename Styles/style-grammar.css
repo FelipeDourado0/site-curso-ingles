@@ -126,6 +126,12 @@ body {
   margin-right: 5%;
 }
 
+.questions {
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
+}
+
 .table {
   color: aqua;
   margin-left: 10%;
@@ -201,6 +207,12 @@ nav > .container-fluid ul {
 
 .pai-nav-flex li:nth-child(6) {
   padding-left: 0;
+}
+
+.form-quests {
+  width: 300px;
+  height: 100%;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1034px) {

@@ -108,30 +108,7 @@
     </header>
 
     <main>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">MENU</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Home</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                            <li class="list-group-item">A fourth item</li>
-                            <li class="list-group-item">And a fifth one</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- ------------------------------------------------------------------------------------------------------ -->
         <div>
             <div class="grammar">
 
@@ -209,36 +186,40 @@
                 <p class="texto"><strong>Grammar Test</strong></p>
                 <p class="texto"><strong>Choose the correct word.</strong></p>
 
-                <p class="texto"><br>1 - She's interested ___ buying the flat.</p>
-                <input type="radio" value="About">
-                <label class="texto" for="html">About</label><br>
-                <input type="radio" value="In">
-                <label class="texto" for="html">In</label><br>
-                <input type="radio" value="On">
-                <label class="texto" for="html">On</label><br>
+                <div class="form-quests">
+                    <p class="texto">1 - She's interested ___ buying the flat.</p>
+                    <input type="radio" value="About" name="questao1">
+                    <label class="texto" for="html">About</label><br>
+                    <input type="radio" value="In" name="questao1">
+                    <label class="texto" for="html">In</label><br>
+                    <input type="radio" value="On" name="questao1">
+                    <label class="texto" for="html">On</label><br>
+                </div>
 
-                <p class="texto"><br>2 - I'm a bit nervous ___ going somewhere so different.</p>
-                <input type="radio" value="About">
-                <label class="texto" for="html">About</label><br>
-                <input type="radio" value="Of">
-                <label class="texto" for="html">Of</label><br>
-                <input type="radio" value="To">
-                <label class="texto" for="html">To</label><br>
+                <div class="form-quests">
+                    <p class="texto"><br>2 - I'm a bit nervous ___ going somewhere so different.</p>
+                    <input type="radio" value="About" name="questao2">
+                    <label class="texto" for="html">About</label><br>
+                    <input type="radio" value="Of" name="questao2">
+                    <label class="texto" for="html">Of</label><br>
+                    <input type="radio" value="To" name="questao2">
+                    <label class="texto" for="html">To</label><br>
+                </div>
 
-                
-                <br>
-                <label class="texto"> <strong>3 - Put the following questions in order.  </strong> </label>
-                <p class="texto">a) this bag belong who to does ?</p>
-                <textarea  style="width: 35%" ></textarea>
-                <p class="texto">b) for looking who were you ?</p>
-                <textarea  style="width: 35%" ></textarea>
-                <p class="texto">c) in which group you are ?</p>
-                <textarea  style="width: 35%" ></textarea>
-                <div class="button-container">
-                    <button type="submit" class="button-login">Finish</button>
-                </div> 
+                <div class="form-quests">
+                    <p class="texto"> <br> <strong>3 - Put the following questions in order. </strong> </p>
+                    <p class="texto">a) this bag belong who to does ?</p>
+                    <textarea style="width: 80%"></textarea>
+                    <p class="texto">b) for looking who were you ?</p>
+                    <textarea style="width: 80%"></textarea>
+                    <p class="texto">c) in which group you are ?</p>
+                    <textarea style="width: 80%"></textarea>
+                    <div class="button-container">
+                        <button type="submit" class="button-login">Finish</button>
+                    </div>
+                </div>
             </div>
-            
+
 
         </div>
     </main>
