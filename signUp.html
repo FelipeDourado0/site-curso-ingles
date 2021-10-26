@@ -113,37 +113,38 @@
                 <div class="container-form">
 
                     <div class="item-form">
-                        <input type="text" id="first_name" name="first_name" placeholder="First name*"
-                            required="required">
+                        <input type="text" id="first_name" name="first_name" placeholder="First name*" required="required">   
                     </div>
 
                     <div class="item-form">
-                        <input type="text" id="last_name" name="last_name" placeholder="Last name*" required="required">
+                        <input type="text" id="last_name" name="last_name" placeholder="Last name*" required="required" >
                     </div>
 
                     <div class="item-form">
-                        <input type="email" id="email_cadastro" name="email_cadastro" placeholder="Email*"
-                            required="required">
+                        <input type="email" id="email_cadastro" name="email_cadastro" placeholder="Email*" required="required">
                     </div>
 
                     <div class="item-form">
-                        <input type="text" id="city_cadastro" name="city_cadastro" placeholder="City"
-                            required="required">
+                        <input type="text" id="city_cadastro" name="city_cadastro" placeholder="City" required="required">
                     </div>
 
                     <div class="item-form">
-                        <input type="password" id="password_cadastro" name="password_cadastro" placeholder="Password*"
-                            required="required">
+                        <input type="password" id="password_cadastro" name="password_cadastro" placeholder="Password*" required="required">
                     </div>
 
                     <div class="item-form">
+                   
                         <label for="level-english">Select your English Level</label>
-                        <select name="level-english">
+                        
+                        <select name="level-english" > 
+                        
                             <option value="Select">Select...</option>
                             <option value="Beginner">Beginner</option>
                             <option value="Middle">Middle</option>
                             <option value="advanced">Advanced</option>
+                        
                         </select>
+                   
                     </div>
 
                     <div class="item-form switch-sex">
@@ -162,7 +163,9 @@
                     </div>
 
                     <div class="container-btn">
-                        <button type="submit" class="button-cadastrar">Create!</button>
+                      
+                        <button type="submit" class="button-cadastrar" onclick="validar()">Create!</button>
+                    
                     </div>
 
                     <div>
@@ -189,12 +192,17 @@
         </div>
     </footer>
 
+
+
+    <script src = "Js/signUp.js" >  </script> 
+
     <!-- ------------------------------------------------------------------------------------------------------ -->
 
 
 
 
     <!-- -------------------------------------------------------------------- -->
+    
     <script type="text/javascript">
         $(document).ready(function () {
             $(window).load(function () {
@@ -202,6 +210,8 @@
             });
         })
     </script>
+
+
 </body>
 
 
