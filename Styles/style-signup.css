@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-cadastro {
+  width: 700px;
+  height: 100%;
+  background-color: white;
+  margin: 5% auto;
+  padding: 10px;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+}
+
+.container-cadastro h1 {
+  text-align: center;
+}
+
+.container-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  list-style: none;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.container-form li {
+  border: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.container-form input {
+  padding: 10px;
+  margin: 0 10px;
+  width: 85%;
+  border: none;
+  border-bottom: solid 1px black;
+  outline: none;
+}
+
+.container-form input:focus {
+  border-bottom: solid 2px #198754;
+}
+
+.item-form {
+  width: 45%;
+  padding: 10px 0;
+}
+
+.item-form textarea {
+  resize: none;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0);
+  border: solid 1px rgb(145, 145, 145);
+  width: 90%;
+  margin-top: 5px;
+}
+
+.item-form > select {
+  text-decoration: none;
+  outline: none;
+  border: solid 1px #8d8d8d;
+  background-color: rgb(245, 245, 245);
+  width: 90%;
+  padding: 4px;
+  border-radius: 10px;
+  color: #020202;
+}
+
+.item-form > select:hover {
+  cursor: pointer;
+}
+
+.switch-sex input {
+  width: 15px;
+  margin: 0 3px;
+}
+
+.switch-sex input:hover,
+.switch-sex label:hover {
+  cursor: pointer;
+}
+
+.container-btn {
+  display: inline-block;
+  width: 100%;
+}
+
+.container-btn button {
+  text-decoration: none;
+  outline: none;
+  border: solid 1px #198754;
+  background-color: white;
+  width: 60%;
+  padding: 15px;
+  color: #198754;
+  border-radius: 500px;
+  margin: 10px 0 15px 20%;
+}
+
+.container-btn button:hover {
+  transition: 0.2s;
+  background-color: #198754;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .container-cadastro {
+    width: 370px;
+  }
+
+  .item-form {
+    width: 90%;
+    padding: 10px 0;
+  }
+
+  .container-form input {
+    width: 90%;
+  }
+
+  .container-btn {
+    width: 90%;
+    display: inline-block;
+  }
+
+  .container-btn button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .switch-sex input {
+    width: 15px;
+    margin: 0 3px;
+  }
+}
