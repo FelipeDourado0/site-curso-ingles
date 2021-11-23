@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-Bootstree, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jorge Rodriguez, Felipe Dorado, Alexandre Nojosa">
+    <meta name="description" content="English">
+    <meta name="keywords" content="english, Grammar, Adjectives, Prepositions, Articles, Past Continuous, Past Simple">
+    <meta name="copyright" content="© 2021 UCB" />
+    <title>CreateAcount</title>
+    <link rel="shortcut icon" href="imagens/uks.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../Styles/style-index.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/style-signup.css">
+</head>
+
+
+<body class="background">
+    <header>
+        <div class="loader hidden">
+            <img src="../imagens/load.gif">
+        </div>
+        <nav class="navbar navbar-light bg-light shadow">
+            <div class="container-fluid">
+                <div>
+                    <span stryle="display: inline-block" class="navbar-brand mb-0 h1">
+                        <a href="index.html"><img src="../imagens/uk.gif" width="100px"></a>English</span>
+                </div>
+                <div>
+                    <ul class="pai-nav-flex">
+                        <li class="filho-nav-flex filho-hover">
+                            <a aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="filho-nav-flex filho-hover">
+                            <a aria-current="page" href="grammar.html">Grammar</a>
+                        </li>
+
+                        <li class="filho-nav-flex filho-hover">
+                            <a aria-current="page" href="login.html">Sign&nbspIn</a>
+                        </li>
+
+                        <li class="filho-nav-flex filho-hover">
+                            <a aria-current="page" href="signUp.html">Sign&nbspUp</a>
+                        </li>
+
+                        <li class="filho-nav-flex">
+                            <input for="search-nav" class="form-control me-2" type="search" placeholder="Search..."
+                                aria-label="Search">
+                        </li>
+
+                        <li class="filho-nav-flex">
+                            <button class="btn btn-outline-success" id="search-nav" type="submit">Search</button>
+                        </li>
+
+                        <li class="filho-nav-flex">
+                            <div>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">MENU</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="index.html" class="btn">Home</a></li>
+                            <li class="list-group-item"><a href="grammar.html" class="btn">Grammar</a></li>
+                            <li class="list-group-item"><a href="login.html" class="btn">Sign&nbspIn</a></li>
+                            <li class="list-group-item"><a href="signUp.html" class="btn">Sign&nbspUp</a></li>
+                            <li class="list-group-item"><a href="adj_pre.html" class="btn">Adjectives and
+                                    Prepositions</a>
+                            </li>
+                            <li class="list-group-item"><a href="articles.html" class="btn">Articles</a></li>
+                            <li class="list-group-item"><a href="past.html" class="btn">Past Continuous and Past
+                                    Simple</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="container-cadastro">
+            <h1>Create account</h1>
+            <form>
+                <div class="container-form">
+
+                    <div class="item-form">
+                        <input type="text" id="first_name" name="first_name" placeholder="First name*"
+                            required="required">
+                    </div>
+
+                    <div class="item-form">
+                        <input type="text" id="last_name" name="last_name" placeholder="Last name*" required="required">
+                    </div>
+
+                    <div class="item-form">
+                        <input type="email" id="email_cadastro" name="email_cadastro" placeholder="Email*"
+                            required="required">
+                    </div>
+
+                    <div class="item-form">
+                        <input type="text" id="city_cadastro" name="city_cadastro" placeholder="City"
+                            required="required">
+                    </div>
+
+                    <div class="item-form">
+                        <input type="password" id="password_cadastro" name="password_cadastro" placeholder="Password*"
+                            required="required">
+                    </div>
+
+                    <div class="item-form">
+
+                        <label for="level-english">Select your English Level</label>
+
+                        <select name="level-english">
+
+                            <option value="Select">Select...</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Middle">Middle</option>
+                            <option value="advanced">Advanced</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="item-form switch-sex">
+                        <p>Select your sex:</p>
+                        <input type="radio" name="switch-sex" id="male-sex" value="male">
+                        <label for="male-sex">Male</label>
+                        <input type="radio" name="switch-sex" id="female-sex" value="female">
+                        <label for="female-sex">Female</label>
+                        <input type="radio" name="switch-sex" id="no-sex" value="other">
+                        <label for="no-sex">Don't inform</label>
+                    </div>
+
+                    <div class="item-form">
+                        <label for="textarea-form">Write a little text about you:</label>
+                        <textarea name="textarea-form" id="textarea-form"></textarea>
+                    </div>
+
+                    <div class="container-btn">
+
+                        <button type="submit" class="button-cadastrar" onclick="validar()">Create!</button>
+
+                    </div>
+
+                    <div>
+                        <input style=" width: 15px; padding:5px;" type="checkbox" id="aceitar_termos"
+                            name="aceitar_termos" required="required">
+                        <label for="aceitar_termos">Aceitar termos de uso<a href="#"> Ler mais...</a></label>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+
+
+    <!-- ------------------------------------------------ -->
+
+    <footer>
+        <div class="container-footer">
+            <div class="list-footer-item">
+                <p> Copyright © 2021 EnglishForAll. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="Js/signUp.js">  </script>
+
+    <!-- ------------------------------------------------------------------------------------------------------ -->
+
+
+
+
+    <!-- -------------------------------------------------------------------- -->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(window).load(function () {
+                $(".loader").remove();
+            });
+        })
+    </script>
+
+
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "trabalhofinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "npm": "^8.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dourad0/site-curso-ingles.git"
+  },
+  "author": "Felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dourad0/site-curso-ingles/issues"
+  },
+  "homepage": "https://github.com/Dourad0/site-curso-ingles#readme"
+}
