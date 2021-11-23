@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 400px;
-  height: 320px;
+  height: 330px;
   background: rgb(44, 44, 44);
   margin: 5% auto 0 auto;
   padding: 0;
@@ -30,7 +30,7 @@
   outline: none;
   color: white;
   background: rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(0, 0, 0, 0.4);
   border-radius: 10px;
 }
 
