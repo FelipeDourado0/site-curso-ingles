@@ -26,7 +26,7 @@ PRIMARY KEY
 
 );
 
-    CREATE USER 'felipedourado'@'localhost' IDENTIFIED BY '123456';
+    CREATE USER 'usuarioteste'@'localhost' IDENTIFIED BY '123456';
 
     GRANT ALL PRIVILEGES ON * . * TO 'felipedourado'@'localhost';
 
