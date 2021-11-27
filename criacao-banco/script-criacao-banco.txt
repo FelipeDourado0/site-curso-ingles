@@ -1,0 +1,34 @@
+create database formulario;
+
+use formulario;
+
+create table estudantes
+(
+
+    id int not null
+    auto_increment,
+nome varchar
+    (50),
+sobrenome varchar
+    (50),
+email varchar
+    (50),
+cidade varchar
+    (50),
+senha varchar
+    (50),
+sexo varchar
+    (50),
+nivel varchar
+    (50),
+PRIMARY KEY
+    (ID)
+
+);
+
+    CREATE USER 'usuarioteste'@'localhost' IDENTIFIED BY '123456';
+
+    GRANT ALL PRIVILEGES ON * . * TO 'usuarioteste'@'localhost';
+
+    ALTER USER 'usuarioteste'@'localhost' IDENTIFIED
+    WITH mysql_native_password BY '123456';

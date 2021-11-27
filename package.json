@@ -1,0 +1,30 @@
+{
+  "name": "trabalhofinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "npm": "^8.1.4",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dourad0/site-curso-ingles.git"
+  },
+  "author": "Felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dourad0/site-curso-ingles/issues"
+  },
+  "homepage": "https://github.com/Dourad0/site-curso-ingles#readme"
+}
